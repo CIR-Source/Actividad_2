@@ -93,7 +93,7 @@ public class Actividad2 {
         }else if ( mes >= 4 && mes <= 6 ){
             System.out.println("Por lo que estamos en el segundo trimestre del año");
         }else if ( mes >= 7 && mes <= 9 ){
-            System.out.println("Por lo que estamos en el tercero trimestre del año");
+            System.out.println("Por lo que estamos en el tercer trimestre del año");
         }else if ( mes >= 10 && mes <= 12 ){
             System.out.println("Por lo que estamos en el cuarto trimestre del año");
         }
