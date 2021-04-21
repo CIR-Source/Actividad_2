@@ -29,13 +29,13 @@ public class Actividad2 {
         switch (hour){
             case 0, 1, 2, 3, 4, 5 -> System.out.println("Durmiendo");
             case 6 -> System.out.println("Levandose y Desayunando");
-            case 7 -> System.out.println("En clase de Administración General (AG)");
-            case 8 -> System.out.println("Saliendo de AG y entrando a Org. Computacional (OC)");
-            case 9 -> System.out.println("En clase de OC");
-            case 10 -> System.out.println("Saliendo de OC y entrando a Física");
+            case 7 -> System.out.println("En clase de Administración General");
+            case 8 -> System.out.println("Saliendo de Administración General y entrando a Org. Computacional ");
+            case 9 -> System.out.println("En clase de Org. Computacional");
+            case 10 -> System.out.println("Saliendo de Org. Computacional y entrando a Física");
             case 11 -> System.out.println("En clase de Física");
-            case 12 -> System.out.println("Saliendo de Física y entrando en Herramientas de la Computación (HC)");
-            case 13 -> System.out.println("Saliendo de HC");
+            case 12 -> System.out.println("Saliendo de Física y entrando en Herramientas de la Computación");
+            case 13 -> System.out.println("Saliendo de Herramientas de la Computación");
             case 14, 15, 17, 18, 19, 20, 21, 23 -> System.out.println("Tiempo Libre");
             case 16 -> System.out.println("Almorzando");
             case 22 -> System.out.println("Cenando");
