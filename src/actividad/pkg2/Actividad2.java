@@ -12,13 +12,8 @@ import java.util.Scanner;
  * @author PC
  */
 public class Actividad2 {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-        
+    
+    public static void primerEjercicio() {
         //Programa de Horario del dia Lunes
         
         Scanner hora = new Scanner(System.in);
@@ -42,7 +37,9 @@ public class Actividad2 {
             case 24 -> System.out.println("Llendo a dormir :)");
             default -> System.out.println("Esta hora del dia NO existe >:C");
         }
-        
+    }
+    
+    public static void segundoEjercicio() {
         // Programa de día Habil
         
         Scanner dia = new Scanner(System.in);
@@ -65,7 +62,9 @@ public class Actividad2 {
         }else if (day == 6 || day == 7 ){
             System.out.println("¡Un fin de semana!");
         }
+    }
         
+    public static void tercerEjercicio() {
         // Programa para encontrar el trimestre del año
         
         Scanner trimestre = new Scanner(System.in);
@@ -97,5 +96,13 @@ public class Actividad2 {
         }else if ( mes >= 10 && mes <= 12 ){
             System.out.println("Por lo que estamos en el cuarto trimestre del año");
         }
+    }
+    
+    public static void main(String[] args) {
+        // TODO code application logic here
+        
+        primerEjercicio();
+        segundoEjercicio();
+        tercerEjercicio();
     }
 }
