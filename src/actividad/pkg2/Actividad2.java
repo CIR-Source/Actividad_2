@@ -101,8 +101,19 @@ public class Actividad2 {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        primerEjercicio();
-        segundoEjercicio();
-        tercerEjercicio();
+        Scanner option = new Scanner(System.in);
+        
+        System.out.println("Elija una de las tres opciones");
+        System.out.println("Programa de Horario del dia Lunes [1]");
+        System.out.println("Programa de día Habil o Inhabil [2]");
+        System.out.println("Programa para encontrar el trimestre del año [3]");
+        int opcion = option.nextInt();
+        
+        switch (opcion){
+            case 1 -> primerEjercicio();
+            case 2 -> segundoEjercicio();
+            case 3 -> tercerEjercicio();
+            default -> System.out.println("Esa opción no es valida");
+        }
     }
 }
