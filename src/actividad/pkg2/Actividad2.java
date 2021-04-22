@@ -99,7 +99,7 @@ public class Actividad2 {
     }
     
     public static void opcion(){
-        //Deja elegiar al usuario que ejercicio se ejecutara
+        //Deja elegir al usuario que ejercicio se ejecutara
         
         Scanner option = new Scanner(System.in);
         
