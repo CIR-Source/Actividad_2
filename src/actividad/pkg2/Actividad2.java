@@ -98,8 +98,8 @@ public class Actividad2 {
         }
     }
     
-    public static void main(String[] args) {
-        // TODO code application logic here
+    public static void opcion(){
+        //Deja elegiar al usuario que ejercicio se ejecutara
         
         Scanner option = new Scanner(System.in);
         
@@ -115,5 +115,11 @@ public class Actividad2 {
             case 3 -> tercerEjercicio();
             default -> System.out.println("Esa opción no es valida");
         }
+    }
+    
+    public static void main(String[] args) {
+        // TODO code application logic here
+        
+        opcion();
     }
 }
